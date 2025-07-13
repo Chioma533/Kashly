@@ -19,11 +19,14 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
-| Frontend     | Backend      | Styling       | Hosting        |
-|--------------|--------------|---------------|----------------|
-| React (CRA)  | Firebase (Auth + Firestore) | CSS3 | Netlify / Vercel |
+| Tool       | Purpose                    |
+|------------|----------------------------|
+| React + Vite | Frontend Framework       |
+| Firebase   | Authentication & Database  |
+| Plain CSS  | Custom Styling             |
+| Git + GitHub | Version Control & Hosting |
 
 ---
 
@@ -38,10 +41,34 @@ cd kashly
 npm install
 
 # 3. Run development server
-npm start
+npm run dev
+
+#app runs at
+http://localhost:5173
 
 # 4. Add Firebase config
 # Create a file named firebase.js in /src and add your Firebase credentials
 
 # 5. Build for production
 npm run build
+
+
+frontend/
+├── public/
+├── src/
+│   ├── assets/             # Images, icons, illustrations
+│   ├── components/         # Reusable components (Button, Card, Navbar, etc.)
+│   ├── pages/              # Page views (Home, Wallet, Learn, etc.)
+│   ├── styles/             # Global and modular CSS files
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── .gitignore
+
+
+🧑‍🤝‍🧑 Team
+Queen Michael — Team Lead
+
+Collaborators: Samuel martins
