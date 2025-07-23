@@ -1,9 +1,10 @@
 import React from 'react'
 import "../styles/modular.css"
 import Sidebar from '../components/Sidebar'
-import DashboardNav1 from '../components/DashboardNav1'
-import BudgetOverview, { IncomeExpense } from '../components/Charts'
 import OverviewCards from '../components/OverviewCards'
+import DashboardNav1 from '../components/DashboardComponent/DashboardNav1'
+import BudgetChart from '../components/Charts/BudgetChart'
+import IncomeExpChart from '../components/Charts/IncomeExpChart'
 
 const Dashboard = () => {
   return (
@@ -16,11 +17,10 @@ const Dashboard = () => {
             <div className='nameholder'>
               <h2 className="ProductName">Kashly Dashboard</h2>
             </div>
-            <BudgetOverview />
+            <BudgetChart />
             <OverviewCards />
-            <IncomeExpense />
+            <IncomeExpChart />
           </div>
-
         </main>
       </section>
     </>

@@ -9,7 +9,7 @@ const Sidebar = () => {
             <aside className='Sidebar'>
                 <ul>
                     <li>
-                        <Link to={""} className='sidelink'>
+                        <Link to={'/stats'} className='sidelink'>
                             <FontAwesomeIcon icon={faHouse} />
                             <span>Dashboard</span>
                         </Link>
