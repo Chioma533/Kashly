@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # 🪙 Kashly – Peer-Driven FinTech for Students
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -21,11 +23,11 @@
 
 ## 🚀 Tech Stack
 
-| Tool       | Purpose                    |
-|------------|----------------------------|
-| React + Vite | Frontend Framework       |
-| Firebase   | Authentication & Database  |
-| Plain CSS  | Custom Styling             |
+| Tool         | Purpose                   |
+| ------------ | ------------------------- |
+| React + Vite | Frontend Framework        |
+| Firebase     | Authentication & Database |
+| Plain CSS    | Custom Styling            |
 | Git + GitHub | Version Control & Hosting |
 
 ---
@@ -72,3 +74,4 @@ frontend/
 Queen Michael — Team Lead
 
 Collaborators: Samuel martins
+=======
